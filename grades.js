@@ -9,10 +9,12 @@ const start = async () => {
 
   const answer = await inquirer.prompt(question);
 
+  //   getting data from an object
   const marks = answer.marks;
 
   const myGrade = grade(marks);
 
+  //   template string 2 main points; 1- back ticks `` and dolla symbol $ and curly brackets {} =`the is example text to explain ${exampledataname}';
   const messageToDisplay = `Your Grade is: ${myGrade}`;
 
   console.log(messageToDisplay);
