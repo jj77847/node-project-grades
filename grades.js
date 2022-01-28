@@ -1,12 +1,12 @@
 const inquirer = require("inquirer");
 
 const question = {
-    type: "input",
-    message: "Please enter your marks",
-    name: "marks"
+  type: "input",
+  message: "Please enter your marks",
+  name: "marks",
 };
 
-const answer = inquirer.prompt{question};
+const answer = inquirer.prompt(question);
 
 const grade = (num) => {
   if (num > 90 && num <= 100) {
