@@ -1,0 +1,21 @@
+{
+  "name": "node-project-grades",
+  "version": "1.0.0",
+  "description": "Demonstration of Basic Node Project on student grades using inquirer and express dependencies.",
+  "main": "grades.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "grades": "node grades.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jj77847/node-project-grades.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jj77847/node-project-grades/issues"
+  },
+  "homepage": "https://github.com/jj77847/node-project-grades#readme"
+}
