@@ -1,3 +1,11 @@
+const inquirer require("inquirer")
+
+const question = {
+    type: "input",
+    message: "Please enter your marks",
+    name: "marks"
+};
+
 const grade = (num) => {
   if (num > 90 && num <= 100) {
     return "A";
