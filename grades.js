@@ -12,7 +12,7 @@ const grade = (num) => {
   }
 };
 
-// const myGrade = grade(70);
+const myGrade = grade(70);
 // console.log(myGrade);
-const messageToDisplay = `Your Grade is${myGrade}`;
+const messageToDisplay = `Your Grade is: ${myGrade}`;
 console.log(messageToDisplay);
