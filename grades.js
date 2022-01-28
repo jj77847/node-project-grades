@@ -11,3 +11,6 @@ const grade = (num) => {
     return "F";
   }
 };
+
+const myGrade = grade(95);
+console.log(myGrade);
