@@ -8,6 +8,8 @@ const start = async () => {
   };
 
   const answer = await inquirer.prompt(question);
+
+  console.log(answer);
 };
 
 const grade = (num) => {
@@ -24,8 +26,8 @@ const grade = (num) => {
   }
 };
 
-const myGrade = grade(60);
+start();
 
-const messageToDisplay = `Your Grade is: ${myGrade}`;
+// const messageToDisplay = `Your Grade is: ${myGrade}`;
 
-console.log(messageToDisplay);
+// console.log(messageToDisplay);
