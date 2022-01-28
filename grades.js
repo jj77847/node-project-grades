@@ -1,12 +1,14 @@
 const inquirer = require("inquirer");
 
-const question = {
-  type: "input",
-  message: "Please enter your marks",
-  name: "marks",
-};
+const start = async () => {
+  const question = {
+    type: "input",
+    message: "Please enter your marks",
+    name: "marks",
+  };
 
-const answer = await inquirer.prompt(question);
+  const answer = await inquirer.prompt(question);
+};
 
 const grade = (num) => {
   if (num > 90 && num <= 100) {
@@ -22,7 +24,7 @@ const grade = (num) => {
   }
 };
 
-const myGrade = grade(70);
+const myGrade = grade(60);
 
 const messageToDisplay = `Your Grade is: ${myGrade}`;
 
