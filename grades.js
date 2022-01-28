@@ -6,7 +6,7 @@ const question = {
     name: "marks"
 };
 
-const inquirer.prompt{question};
+const answer = inquirer.prompt{question};
 
 const grade = (num) => {
   if (num > 90 && num <= 100) {
