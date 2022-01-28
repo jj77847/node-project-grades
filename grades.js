@@ -2,14 +2,20 @@ const inquirer = require("inquirer");
 
 const start = async () => {
   const question = {
-    type: "input",
+    type: "number",
     message: "Please enter your marks",
     name: "marks",
   };
 
   const answer = await inquirer.prompt(question);
 
-  console.log(answer);
+  const marks = answer.marks;
+
+  const myGrade = grade(marks);
+
+  const messageToDisplay = `Your Grade is: ${myGrade}`;
+
+  console.log(messageToDisplay);
 };
 
 const grade = (num) => {
@@ -27,7 +33,3 @@ const grade = (num) => {
 };
 
 start();
-
-// const messageToDisplay = `Your Grade is: ${myGrade}`;
-
-// console.log(messageToDisplay);
