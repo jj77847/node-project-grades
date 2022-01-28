@@ -6,6 +6,8 @@ const question = {
     name: "marks"
 };
 
+const inquirer.prompt{question};
+
 const grade = (num) => {
   if (num > 90 && num <= 100) {
     return "A";
@@ -21,6 +23,7 @@ const grade = (num) => {
 };
 
 const myGrade = grade(70);
-// console.log(myGrade);
+
 const messageToDisplay = `Your Grade is: ${myGrade}`;
+
 console.log(messageToDisplay);
